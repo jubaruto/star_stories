@@ -62,3 +62,5 @@ class Tela:
 janelaRaiz = tk.Tk()
 Tela(janelaRaiz)
 janelaRaiz.mainloop()
+
+
