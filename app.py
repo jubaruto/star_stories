@@ -47,7 +47,7 @@ class Tela:
         f"'Mon Amour, Meu Bem, Ma Femme', regravada por vários outros artístas.\nNa década de 70 também houveram "
         f"outros hits como 'Desterro' e 'Pedaço de Mau Caminho'.\nNa década de 80 Reginaldo Rossi ganhou o seu primeiro "
         f"disco de ouro com o álbum 'A Volta' e também lançou um de seus maiores sucessos,"
-        f"\na música 'Garçon', alcançando a marca de dois milhões de cópias vendidas e uma das primeiras músicas "
+        f"\na música 'Garçom', alcançando a marca de dois milhões de cópias vendidas e uma das primeiras músicas "
         f"cantadas por vários outros cantores.\nEm fins da década de 90 Reginaldo Rossi ressurgiu no sul do país, "
         f"relançando seus discos em CD.\nO cantor e compositor passou a ser visto como 'cult' e assinou contrato com "
         f"a gravadora Sony. Na política, Reginaldo Rossi foi candidato a vereador \nno município "
@@ -56,6 +56,7 @@ class Tela:
         f"dois litros de líquido acumulados entre a pleura e o pulmão.\nO resultado da biópsia confirmou o diagnóstico "
         f"de câncer de pulmão, doença que causou seu falecimento. Oito meses após o a sua morte,"
         f"\nno dia 15 de agosto de 2014, sua viúva Celeide Neves também faleceu, aos 67 anos, de infarto.")
+        
         self.lbl.image = self.minhaImagem
         self.lbl.pack()
 
