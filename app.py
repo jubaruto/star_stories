@@ -10,12 +10,11 @@
 
 2º Contar um pouco da história/trajetória.
 
-3º Inserir bibliografia.
-
-4º Inserir algumas músicas.
+3º Inserir algumas músicas.
 
 """
 import tkinter as tk
+from turtle import right
 from PIL import ImageTk, Image
 
 nome = "Reginaldo Rodrigues dos Santos"
@@ -25,12 +24,10 @@ data_fal = "20 de dezembro de 2013"
 nacional = "Brasileiro"
 natural = "Recife/PE"
 
-nome_art = input("Digite o nome do artísta: ")
 
 class Tela:
     def __init__(self, master):
         self.nossaTela = master
-
         img = Image.open("C:\Projetos\star_stories\img\inaldo_rossi.png")
         self.minhaImagem = ImageTk.PhotoImage(img)
         self.lbl = tk.Label(self.nossaTela, image=self.minhaImagem,
@@ -55,7 +52,9 @@ class Tela:
         f"\nNo dia 09 de dezembro de 2013, Reginaldo Rossi passou por um procedimento médico retirando "
         f"dois litros de líquido acumulados entre a pleura e o pulmão.\nO resultado da biópsia confirmou o diagnóstico "
         f"de câncer de pulmão, doença que causou seu falecimento. Oito meses após o a sua morte,"
-        f"\nno dia 15 de agosto de 2014, sua viúva Celeide Neves também faleceu, aos 67 anos, de infarto.")
+        f"\nno dia 15 de agosto de 2014, sua viúva Celeide Neves também faleceu, aos 67 anos, de infarto.",
+        bg="#99FFCC"
+        )
         
         self.lbl.image = self.minhaImagem
         self.lbl.pack()
