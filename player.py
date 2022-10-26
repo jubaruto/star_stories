@@ -12,7 +12,7 @@ cor04 = "#403d3d"
 cor05 = "#4a88e8"
 
 janela = Tk()
-janela.title("")
+janela.title("Player")
 janela.geometry("352x255")
 janela.configure(background=cor01)
 janela.resizable(width=FALSE, height=FALSE)
